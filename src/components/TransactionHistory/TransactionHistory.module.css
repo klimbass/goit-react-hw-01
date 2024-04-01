@@ -1,0 +1,31 @@
+.table {
+  border: 2px solid rgb(48, 47, 47);
+  margin: 0 auto;
+  width: 750px;
+  border-collapse: collapse;
+  font-size: 24px;
+}
+.tableHead {
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+}
+.tableHeadItem {
+  padding: 8px 0;
+  width: 250px;
+}
+.tbody {
+  color: black;
+}
+.tbodyTr:nth-child(2n) {
+  background-color: rgb(195, 195, 198);
+}
+
+.tbodyTitle {
+  padding: 8px 0;
+  padding-left: 60px;
+  border: 2px solid rgb(48, 47, 47);
+}
+.tbodyItem {
+  text-align: center;
+  border: 2px solid rgb(48, 47, 47);
+}
